@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+#one {
+    background-color: lightblue;
+}
+
+#two {
+    background-color: lightgreen;
+}
+
+.footer {
+    background-color: lightgrey;
+    width: cover;
+    height: 20vh;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 2em;
+}
